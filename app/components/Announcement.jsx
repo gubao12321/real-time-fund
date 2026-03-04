@@ -66,15 +66,13 @@ export default function Announcement() {
               为了增加更多用户方便访问, 新增国内加速地址：<a className="link-button"
                                                           target="_blank"
                                                           rel="noopener noreferrer"
-                                                          style={{ color: 'var(--primary)', textDecoration: 'underline', padding: '0 4px', fontWeight: 600 }} href="https://fund.cc.cd/">https://fund.cc.cd/</a>
+                                                          style={{ color: 'var(--primary)', textDecoration: 'underline', padding: '0 4px', fontWeight: 600 }} href="https://funds.cc.cd/">https://funds.cc.cd/</a>
               <p>v0.1.9 版本更新内容如下：</p>
               <p>1. 新增亮色主题。</p>
               <p>2. PC、移动表格模式重构，支持自定义布局。</p>
               <p>3. PC端设置弹框支持修改页面容器宽度。</p>
               <p>4. 分组下自定义布局数据相互独立（旧数据需重新配置）。</p>
               <p>5. 更换随机头像风格。</p>
-              感谢以下用户上月对项目赞助支持（排名不分顺序）：
-              <p>*业、M*.、S*o、b*g、*落、D*A、*山、匿名、*🍍、*啦、L*.、*洛、大大方块先生、带火星的小木条、F、無芯、广告制作装饰、**中、**礼</p>
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '8px' }}>

@@ -60,29 +60,6 @@ export default function Announcement() {
                 <line x1="12" y1="9" x2="12" y2="13"></line>
                 <line x1="12" y1="17" x2="12.01" y2="17"></line>
               </svg>
-              <span>公告</span>
-            </div>
-            <div style={{ color: 'var(--text)', lineHeight: '1.6', fontSize: '15px' }}>
-              为了增加更多用户方便访问, 新增国内加速地址：<a className="link-button"
-                                                          target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          style={{ color: 'var(--primary)', textDecoration: 'underline', padding: '0 4px', fontWeight: 600 }} href="https://funds.cc.cd/">https://funds.cc.cd/</a>
-              <p>v0.1.9 版本更新内容如下：</p>
-              <p>1. 新增亮色主题。</p>
-              <p>2. PC、移动表格模式重构，支持自定义布局。</p>
-              <p>3. PC端设置弹框支持修改页面容器宽度。</p>
-              <p>4. 分组下自定义布局数据相互独立（旧数据需重新配置）。</p>
-              <p>5. 更换随机头像风格。</p>
-            </div>
-
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '8px' }}>
-              <button 
-                className="button" 
-                onClick={handleClose}
-                style={{ width: '100%', justifyContent: 'center', display: 'flex', alignItems: 'center' }}
-              >
-                我知道了
-              </button>
             </div>
           </motion.div>
         </motion.div>
